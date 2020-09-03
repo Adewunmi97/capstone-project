@@ -1,0 +1,36 @@
+header {
+    color: #fff;
+    background-color: #3e3e3e;
+    font-size: 13px;
+}
+.flex {
+    display: flex;
+}
+nav{
+    background-color: aliceblue;
+}
+.nav-link {
+    color: #aeaeae;
+}
+ .logo {
+    height: 60px;
+ }
+ body{
+    font-family: 'Lato', sans-serif;
+ }
+ .back {
+     background-image: url(img/bg-img.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+ }
+ .grad {
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(255, 74, 2), rgb(252, 165, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+ .ft-logo {
+     background-color: black;
+ }
