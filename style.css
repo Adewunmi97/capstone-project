@@ -6,17 +6,21 @@ header {
 .flex {
     display: flex;
 }
-nav{
-    background-color: aliceblue;
+.def-sz {
+    font-size: 16px;
 }
 .nav-link {
     color: #aeaeae;
 }
  .logo {
-    height: 60px;
+    height: 70px;
+ }
+ .speaker {
+     height: 90px;
  }
  body{
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
  }
  .back {
      background-image: url(img/bg-img.jpg);
@@ -24,13 +28,54 @@ nav{
      background-size: cover;
      color: white;
  }
+ .grid {
+     display: grid;
+     grid-gap: 0.5em;
+     grid-template-columns: 20% 20% 20% 20% 20%;
+
+ }
+
+ .jumbotron {
+     background-image: url(img/bg2\ img.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ .orange {
+     color: #ec5242;
+ }
  .grad {
-    font-size: 72px;
-    background: -webkit-linear-gradient(rgb(255, 74, 2), rgb(252, 165, 3));
+    font-size: 50px;
+    background-image: url(img/heading-bg.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .g-style {
+      background-color: #d3d3d331;
+      padding: 5px;
+      line-height: 20px;
+  }
+  .rapper {
+      margin-left: 125px;
+  }
+  .rapped {
+      padding: 10px 10px 15px 15px;
+      border: 2px solid white;
+      width: 40%;
+  }
+  .fs-12 {
+      font-size: 12px;
+  }
+  .rapped2 {
+      padding: 10px 10px 15px 15px;
+      border: 1px solid tomato;
+      background-color: tomato;
+  }
 
+.venue {
+    font-size: 30px;
+}
  .ft-logo {
-     background-color: black;
+     background-color: #272a31;
+     color: #d3d3d3;
+     font-family:'Courier New', Courier, monospace ;
  }
