@@ -3,7 +3,7 @@
 > This project focuses on building a responsive online site for an online web-training class.
 The main goal of the project is to practice all my knowledge on HTML5/CSS3 and Twitter Bootstrap in creating a responsive website.
 
-![screenshot]
+![screenshot](img/screenshot.png)
 
 The wewebit website has three different pages that appear differently in dynamic positions on the two major screen sizes; Mobile and Medium screens.
 
@@ -20,7 +20,7 @@ The pages below were covered in this project:
 
 ## Live Demo
 
-[Live Demo Link]
+[Live Demo Link](https://rawcdn.githack.com/Adewunmi97/capstone-project/tree/feature)
 
 
 ## Getting Started
@@ -32,7 +32,7 @@ A working knowledge of the technologies used: HTML, CSS3 and Bootstrap
 
 ### Setup
 Clone this repo to your local machine
-
+`git clone https://github.com/Adewunmi97/capstone-project.git`
 
 ### Install
 Install the Webhint and Stylelint linters
