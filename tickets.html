@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tickets page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tickets.css">
+</head>
+<body>
+
+    <header>
+        <div class="container d-none d-md-block py-2">
+            <ul class="d-flex list-unstyled justify-content-end mb-0">
+                <li class="pr-3"><i class="fab fa-facebook-f"></i></li>
+                <li class="pr-3"><i class="fab fa-twitter"></i></li>
+                <li class="pr-3">English</li>
+                <li class="pr-3">My Page</li>
+                <li class="pr-3">Logout</li>
+            </ul>
+        </div>
+
+        <div class="container d-md-none d-block py-2">
+            <ul class="d-flex list-unstyled justify-content-end mb-0">
+                <li class="nav-item"><a class="nav-link pt-2 text-white" href="index.html">home</a></li>
+                <li class="nav-item"><a class="nav-link pt-2 text-white" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link pt-2 text-white" href="tickets.html">tickets</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <nav>
+       <div class="container d-none d-md-block">
+           <div class="row">
+            <div class=" col-3 flex">
+                <img src="img/cap-logo.png" alt="logo" class="logo ml-5 pl-4">
+             </div>
+            <div class="col-9">
+                <ul class="flex list-unstyled justify-content-end">
+                    <li class="nav-item"><a class="nav-link pt-3" href="index.html">home</a></li>
+                    <li class="nav-item"><a class="nav-link pt-3" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link pt-3" href="tickets.html">tickets</a></li>
+                    <li class="nav-item"><a class="nav-link pt-3" href="schedule.html">schedule</a></li>
+                </ul>
+             </div>
+           </div>
+       </div>
+    </nav>
+
+    <section class="bg-light">
+       <h3 class="text-center text-muted py-5">Select Tickets</h3>
+       <div class="d-flex text-center tickets-pad px-4 align-items-center mb-3">
+            <div class="kite mr-2">
+            </div>
+            <p class="text-muted pt-2 px-3"><span>STEP 1</span> Select tickets for participation days here</p>
+        </div>
+        <div class="container text-center py-5 position-relative">
+            <img src="img/table.png" alt="table" class="table">
+            <div class="position-absolute square-logo">
+                <i class="fas fa-chevron-down text-white"></i>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3 class="text-center text-muted py-5 mt-3">Select Your Course</h3>
+        <div class="d-flex text-center tickets-pad px-3 align-items-center mb-3">
+            <div class="kite mr-2">
+            </div>
+            <p class="text-muted pt-2 px-3"><span>STEP 2</span> Interested? choose course here</p>
+        </div>
+
+        <div class="container w-50 py-5 reg">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2">Register here</span>
+                </div>
+              </div>
+              <button class="btn btn-lg rapped2 w-75 mx-auto d-block my-5 font-weight-bold text-white">Select Course</button>
+        </div>
+    </section>
+</body>
+</html>

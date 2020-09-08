@@ -1,0 +1,80 @@
+
+header {
+  color: #fff;
+  background-color: #3e3e3e;
+  font-size: 13px;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav-link {
+  color: #aeaeae;
+}
+
+.logo {
+  height: 70px;
+}
+
+.square-logo {
+  width: 40px;
+  height: 40px;
+  background-color: tomato;
+  left: 50%;
+  bottom: -4%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.fa-chevron-down {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.kite {
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  background-color: tomato;
+}
+
+.tickets-pad {
+  border: 1px solid rgb(211, 212, 214);
+  width: 25%;
+  margin: 0 auto;
+  border-radius: 35px;
+}
+
+.rapped2 {
+  padding: 10px 10px 15px 15px;
+  border: 1px solid tomato;
+  background-color: tomato;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  .tickets-pad {
+    width: 90%;
+    padding: 5px 5px 5px 10px !important;
+  }
+
+  .tickets-pad p {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .reg {
+    width: 95% !important;
+    font-size: 12px !important;
+  }
+
+  input::placeholder,
+  span.input-group-text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,97 @@
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+/* general styles */
+
+.orange {
+  color: #ec5242;
+}
+
+.fs-12 {
+  font-size: 17px;
+}
+
+/* body */
+
+header {
+  color: #fff;
+  background-color: #3e3e3e;
+  font-size: 13px;
+}
+
+.nav-link {
+  color: #aeaeae;
+}
+
+.logo {
+  height: 100px;
+}
+
+.display-logo {
+  border: 1px solid tomato;
+}
+
+.bg-img {
+  background-image: url(img/bg2\ img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grad {
+  font-size: 50px;
+  background-image: url(img/heading-bg.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad2 {
+  font-size: 30px;
+  background-image: url(img/heading-bg.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.g-style {
+  background-color: #d3d3d331;
+  padding: 5px;
+  line-height: 20px;
+}
+
+.rapped {
+  width: 100%;
+  padding: 10px 30px 15px 15px;
+  border: 2px solid rgb(182, 181, 181);
+  background-color: white;
+}
+
+.stu-icon {
+  width: 50%;
+}
+
+.past-cont {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.past-img {
+  height: 300px;
+}
+
+footer {
+  background-color: #272a31;
+  color: white;
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+  .past-cont {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .past-img {
+    height: 150px;
+  }
+}
