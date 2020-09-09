@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tickets page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tickets.css">
+</head>
+<body>
+
+    <header>
+        <div class="container d-none d-md-block py-2">
+            <ul class="d-flex list-unstyled justify-content-end mb-0">
+                <li class="pr-3"><i class="fab fa-facebook-f"></i></li>
+                <li class="pr-3"><i class="fab fa-twitter"></i></li>
+                <li class="pr-3">English</li>
+                <li class="pr-3">My Page</li>
+                <li class="pr-3">Logout</li>
+            </ul>
+        </div>
+    </header>
+
+    <nav>
+       <div class="container d-none d-md-block">
+           <div class="row">
+            <div class=" col-3 flex">
+                <img src="img/cap-logo.png" alt="logo" class="logo">
+             </div>
+            <div class="col-9">
+                <ul class="flex list-unstyled justify-content-end">
+                    <li class="nav-item"><a class="nav-link pt-3" href="index.html">home</a></li>
+                    <li class="nav-item"><a class="nav-link pt-3" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link pt-3" href="tickets.html">tickets</a></li>
+                    <li class="nav-item"><a class="nav-link pt-3" href="schedule.html">schedule</a></li>
+                </ul>
+             </div>
+           </div>
+       </div>
+    </nav>
+
+    <nav class="navbar d-md-none navbar-light bg-light pb-0 p-3 jumbotron mb-0">
+      <a class="navbar-brand d-none d-md-block" href="index.html">
+          <img src="img/cap-logo.png" alt="logo" class="logo ml-5 pl-4">
+      </a>
+      <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pl-4">
+          <li class="nav-item active">
+            <a class="nav-link nav-text-color" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text-color" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text-color" href="tickets.html">Ticket</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="bg-light py-3">
+       <h1 class="text-center text-muted py-3">Select Tickets</h1>
+       <div class="d-flex text-center tickets-pad px-4 align-items-center mb-5">
+            <div class="kite mr-2">
+            </div>
+            <p class="text-muted pt-3 px-3"><span>STEP 1</span> Select tickets for participation days here</p>
+        </div>
+        <div class="container text-center position-relative p-0" id="borderimg">
+            <table class="table mb-0 table-responsive-sm">
+                <thead>
+                  <tr>
+                    <th scope="row" class="text-muted">Tickets</th>
+                    <th scope="row" class="text-muted">1-day-Ticket</th>
+                    <th scope="row" colspan="2" class="text-muted">2-day-Ticket</th>
+                    <th scope="row" class="text-muted">Courses</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-muted">Date</th>
+                    <td class="text-muted font-weight-bold">3rd(thur)</td>
+                    <td class="text-muted font-weight-bold">4th(fri)</td>
+                    <td class="text-muted font-weight-bold">3rd-4th(thur-fri)</td>
+                    <td class="text-muted font-weight-bold">3rd-4th(thur-fri)</td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="text-muted">Normal</th>
+                    <td class="text-muted">$1000</td>
+                    <td class="text-muted">$1500</td>
+                    <td class="text-muted">$2000</td>
+                    <td class="text-muted">Html5/CSS3</td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="text-muted pb-0">Students</th>
+                    <td class="text-muted pb-0">$1200</td>
+                    <td class="text-muted pb-0">$1500</td>
+                    <td class="text-muted pb-0">$2200</td>
+                    <td class="text-muted pb-0">Java, React, etc</td>
+                  </tr>
+                </tbody>
+              </table>
+            <div class="position-absolute square-logo">
+                <i class="fas fa-chevron-down text-white"></i>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="text-center text-muted py-5 mt-3">Select Your Course</h2>
+        <div class="d-flex text-center tickets-pad px-3 align-items-center mb-3">
+            <div class="kite mr-2">
+            </div>
+            <p class="text-muted pt-2 px-3"><span>STEP 2</span> Interested? choose course here</p>
+        </div>
+
+        <div class="container w-50 py-5 reg">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2">Register here</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-lg rapped2 w-75 mx-auto d-block my-5 font-weight-bold text-white">Select Course</button>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
