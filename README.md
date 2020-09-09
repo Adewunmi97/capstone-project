@@ -20,7 +20,7 @@ The pages below were covered in this project:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Adewunmi97/capstone-project/tree feature)
+[Live Demo Link](https://rawcdn.githack.com/Adewunmi97/capstone-project/treefeature)
 
 
 ## Getting Started
