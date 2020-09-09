@@ -24,26 +24,47 @@
     </header>
 
     <nav>
-       <div class="container d-none d-md-block">
-           <div class="row align-items-center">
-            <div class=" col-3 flex">
-                <img src="img/cap-logo.png" alt="logo" class="logo ml-5 pl-4">
-             </div>
-            <div class="col-9">
-                <ul class="d-flex list-unstyled justify-content-end">
-                    <li class="nav-item"><a class="nav-link pt-3 fs-12" href="index.html">home</a></li>
-                    <li class="nav-item"><a class="nav-link pt-3 fs-12" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link pt-3 fs-12" href="tickets.html">tickets</a></li>
-                    <li class="nav-item"><a class="nav-link pt-3 fs-12" href="schedule.html">schedule</a></li>
-                </ul>
-             </div>
-           </div>
-       </div>
-    </nav>
-    <section class="bg-img">
-        <div>
-            <i class="fas fa-bars ml-5 font-weight-bolder grad2 text-muted mt-3 d-md-none mt-0"></i>
+        <div class="container d-none d-md-block">
+            <div class="row">
+             <div class=" col-3 flex">
+                 <img src="img/cap-logo.png" alt="logo" class="logo">
+              </div>
+             <div class="col-9">
+                 <ul class="d-flex list-unstyled justify-content-end">
+                     <li class="nav-item"><a class="nav-link pt-3" href="index.html">home</a></li>
+                     <li class="nav-item"><a class="nav-link pt-3" href="about.html">About</a></li>
+                     <li class="nav-item"><a class="nav-link pt-3" href="tickets.html">tickets</a></li>
+                     <li class="nav-item"><a class="nav-link pt-3" href="schedule.html">schedule</a></li>
+                 </ul>
+              </div>
+            </div>
         </div>
+     </nav>
+
+    <nav class="navbar d-md-none navbar-light jumbotron p-3 bg-img mb-0">
+        <a class="navbar-brand d-none d-md-block" href="index.html">
+            <img src="img/cap-logo.png" alt="logo" class="logo ml-5 pl-4">
+        </a>
+        <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pl-4">
+            <li class="nav-item active">
+              <a class="nav-link nav-text-color" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-text-color" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-text-color" href="tickets.html">Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <section class="bg-img">
             <div class="container w-100 py-5">
                 <h3 class="grad2 text-center">"HELLO! WEB WORLD"</h3>
                 <h1 class="font-weight-bolder grad text-center">WE WEB IT<br> GLOBAL SUMMIT<br> 2020</h1>
@@ -85,6 +106,8 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -4,6 +4,10 @@ header {
   font-size: 13px;
 }
 
+.nav-text-color {
+  color: #3e3e3e;
+}
+
 .flex {
   display: flex;
 }
