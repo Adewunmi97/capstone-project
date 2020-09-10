@@ -1,11 +1,11 @@
 # capstone-project
 
-> This project focuses on building a responsive online site for an online web-training class.
-The main goal of the project is to practice all my knowledge on HTML5/CSS3 and Twitter Bootstrap in creating a responsive website.
+This project focuses on building a responsive conference website for an online web-training.
+The main goal of the project is to solidify my understanding on HTML5/CSS3 and Twitter Bootstrap in creating a responsive website.
 
 ![screenshot](img/screenshot.png)
 
-The wewebit website has three different pages that appear differently in dynamic positions on the two major screen sizes; Mobile and Medium screens.
+The wewebit website has three different pages that are responsive on the two major screen sizes; Mobile and Desktop screens.
 
 The pages below were covered in this project:
 - Home page

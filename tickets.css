@@ -1,8 +1,12 @@
-
 header {
   color: #fff;
   background-color: #3e3e3e;
   font-size: 13px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 .flex {
@@ -22,7 +26,7 @@ header {
   height: 40px;
   background-color: tomato;
   left: 50%;
-  bottom: -4%;
+  bottom: -16%;
   transform: translateX(-50%) rotate(45deg);
 }
 
@@ -42,7 +46,7 @@ header {
 
 .tickets-pad {
   border: 1px solid rgb(211, 212, 214);
-  width: 25%;
+  width: 30%;
   margin: 0 auto;
   border-radius: 35px;
 }
@@ -53,18 +57,21 @@ header {
   background-color: tomato;
 }
 
-table {
-  border: 10px solid rgb(136, 135, 135);
-}
-
 td,
 th {
   border: 3px solid #ccc;
+  border-bottom: 0;
+}
+
+#borderimg {
+  border: 10px solid transparent;
+  border-image: url(img/stripes.jpg) 10%;
+  border-image-width: 10px;
 }
 
 @media (max-width: 991px) {
   .tickets-pad {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -74,7 +81,7 @@ th {
   }
 
   .tickets-pad {
-    width: 90%;
+    width: 50%;
     padding: 5px 5px 5px 10px !important;
   }
 

@@ -21,15 +21,6 @@
                 <li class="pr-3">Logout</li>
             </ul>
         </div>
-
-        <div class="container d-md-none d-block py-2">
-            <ul class="d-flex list-unstyled justify-content-end mb-0">
-                <li class="nav-item"><a class="nav-link pt-2 text-white" href="index.html">home</a></li>
-                <li class="nav-item"><a class="nav-link pt-2 text-white" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link pt-2 text-white" href="tickets.html">tickets</a></li>
-
-            </ul>
-        </div>
     </header>
 
     <nav>
@@ -50,15 +41,38 @@
        </div>
     </nav>
 
-    <section class="bg-light">
+    <nav class="navbar d-md-none navbar-light bg-light p-3 jumbotron mb-0">
+      <a class="navbar-brand d-none d-md-block" href="index.html">
+          <img src="img/cap-logo.png" alt="logo" class="logo ml-5 pl-4">
+      </a>
+      <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pl-4">
+          <li class="nav-item active">
+            <a class="nav-link nav-text-color" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text-color" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text-color" href="tickets.html">Ticket</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="bg-light py-5">
        <h1 class="text-center text-muted py-5">Select Tickets</h1>
-       <div class="d-flex text-center tickets-pad px-4 align-items-center mb-3">
+       <div class="d-flex text-center tickets-pad px-4 align-items-center mb-5">
             <div class="kite mr-2">
             </div>
-            <p class="text-muted pt-2 px-3"><span>STEP 1</span> Select tickets for participation days here</p>
+            <p class="text-muted pt-3 px-3"><span>STEP 1</span> Select tickets for participation days here</p>
         </div>
-        <div class="container text-center py-5 position-relative">
-            <table class="table">
+        <div class="container text-center position-relative p-0" id="borderimg">
+            <table class="table mb-0">
                 <thead>
                   <tr>
                     <th scope="row" class="text-muted">Tickets</th>
@@ -83,11 +97,11 @@
                     <td class="text-muted">Html5/CSS3</td>
                   </tr>
                   <tr>
-                    <th scope="col" class="text-muted">Students</th>
-                    <td class="text-muted">$1200</td>
-                    <td class="text-muted">$1500</td>
-                    <td class="text-muted">$2200</td>
-                    <td class="text-muted">Java, React, etc</td>
+                    <th scope="col" class="text-muted pb-0">Students</th>
+                    <td class="text-muted pb-0">$1200</td>
+                    <td class="text-muted pb-0">$1500</td>
+                    <td class="text-muted pb-0">$2200</td>
+                    <td class="text-muted pb-0">Java, React, etc</td>
                   </tr>
                 </tbody>
               </table>
@@ -115,5 +129,8 @@
               <button type="button" class="btn btn-lg rapped2 w-75 mx-auto d-block my-5 font-weight-bold text-white">Select Course</button>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
